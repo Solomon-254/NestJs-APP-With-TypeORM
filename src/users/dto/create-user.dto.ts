@@ -15,7 +15,8 @@ export class CreateUserDto {
   @IsNotEmpty()
   lastName: string;
   
-
+  @IsNotEmpty()
+  age:number
 
   isActive?: boolean;
 }
